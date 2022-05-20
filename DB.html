@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body{
+            background-color: rgb(186, 186, 186);
+        }
+        #container{
+            display: grid;
+            grid-template-columns: repeat(4,23%);
+            justify-content: center;
+            margin-top: 100px;
+           
+        }
+        .data{
+           background-color: rgb(255, 255, 255);
+            margin: auto;
+              margin-top: 30px;
+              border: 1px solid black;
+              padding: 20px;
+
+        }
+        .data>p,.data>h3,.data>h2{
+            margin: 0px;
+        }
+        button{
+            color: red;
+            margin-top: 10px;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            color: rgb(64, 187, 187);
+            background-color: rgb(45, 46, 68);
+            margin-bottom: 70px;
+            position:fixed;   
+            width: 100%;
+            top:0
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>Web18 - <span class="web18"></span></h1>
+        <h1>WEB19 - <span class="web19"></span></h1>
+        <h1>Android - <span class="andro-02"></span></h1>
+    
+    </div>
+    <div id="container">
+
+    </div>
+</body>
+</html>
+<script src="DB.js">
+
+</script>
